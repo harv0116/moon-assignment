@@ -149,7 +149,8 @@ a:hover, a:active, a:focus{
 .main h3{
 	font-size: 2.618rem;
 	color: #CC3300;
-	text-align: left;	
+	text-align: left;
+	margin-bottom: 20px;	
 }
 .main p{
 	line-height: 150%;
