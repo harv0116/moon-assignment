@@ -144,7 +144,7 @@ a:hover, a:active, a:focus{
 	color: #CC3300;
 	float: left;
 	text-align: left;
-	padding-bottom: 40px;
+	margin-bottom: 30px;
 	width: 60%;
 }
 .main h3{
