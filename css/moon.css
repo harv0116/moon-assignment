@@ -141,7 +141,7 @@ a:hover, a:active, a:focus{
 	/*width: 100%;*/
 	background-image: url("img/moon-header.jpg");
 	background-repeat: no-repeat;
-	background-position: top right;
+	/*background-position: top right;*/
 	background-color: black;
 }
 .main h2{
