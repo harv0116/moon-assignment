@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+/***********************************
+		REFERENCES
+font-sizes
+6.854rem
+4.236rem
+2.618rem
+1.618rem
+1rem
+0.618rem
+
+font-families
+Droid Serif, Droid Sans
+
+colors
+#000000
+#222222
+#333333
+#D4D4D4
+#CC3300
+#BADA55
+#FFFFFF
+plus the shadow for the text
+
+
+***********************************/
+
+*{
+	padding:0;
+	margin:0;
+}
+
+/***********************************
+		DEFAULTS
+***********************************/
+body{
+	background-color: #fff;
+	margin-top: 40px;
+	
+}
+h1, h2, h3, h4{
+	font-family: 'Droid Serif', serif;
+		  /* you need a font stack here */
+}
+h1{
+	
+}
+h2{
+	
+}
+h3{
+	
+}
+h4{
+	
+}
+p, li, a{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 1.618rem;	
+	 /* you need a font stack here */
+}
+img{
+	max-width: 100%;
+	box-sizing: border-box;
+	border-radius: 50%;
+	width:35%;
+}
+ul{
+	list-style-type: none;
+	overflow:hidden;
+	margin-bottom: 20px;
+}
+li{
+	float: left;
+	display: inline;
+}
+a:link, a:visited{
+	transition: all 0.8s linear;
+}
+a:hover, a:active, a:focus{
+	text-decoration: none;
+}
+
+/***********************************
+		LAYOUT
+***********************************/
+.wrapper{
+	width:60%;
+	max-width: 1020px;
+	min-width: 400px;
+	margin:0 auto 2.0rem;
+	background-color: #d4d4d4;
+	border-left: 40px solid #000;
+	border-right: 40px solid #000;
+	border-bottom: 40px solid #000;
+}
+.header{
+	background-color: #000;
+    min-height: 400px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.main{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.footer{
+	padding-top: 30px;
+	padding-left: 100px;
+    padding-right: 100px;
+    background-color: #222222;
+}
+
+/***********************************
+		LINKS 
+-for any that are different than the default
+***********************************/
+
+.footer a:link,
+.footer a:visited{
+	display: block;
+	color: #CC3300;	
+}
+.footer a:hover,
+.footer a:active,
+.footer a:focus{
+	color: #BADA55;	
+}
+
+
+/***********************************
+		CONTENT
+***********************************/
+.header h1{
+	color: #FFFFFF;
+	font-size: 6.854rem;
+	float: left;
+	text-align: center;
+	width: 60%;
+}
+.main h2{
+	font-size: 4.236rem;
+	color: #CC3300;
+	text-align: left;
+	width: 60%;
+}
+.main h3{
+	font-size: 2.618rem;
+	color: #CC3300;
+	text-align: left;	
+}
+.main p{
+	line-height: 150%;
+	margin-bottom: 1.5em;
+}
+.main img{
+	/* use border-radius to crop image */
+	border-radius: 50%;
+	width:15%;
+	/* choose a width percentage for the image too */
+}
+.left{
+	float:left;
+	margin-right:10px;
+	margin-bottom: 10px;
+}
+.footer p{
+    color: #000000;
+    padding-bottom: 20px;
+}
+.footer li{
+	width: 50%;
+	line-height: 200%;
+    /* make these 50% the width of the footer */
+}
