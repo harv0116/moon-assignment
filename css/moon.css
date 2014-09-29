@@ -142,9 +142,8 @@ a:hover, a:active, a:focus{
 .main h2{
 	font-size: 4.236rem;
 	color: #CC3300;
-	float: left;
 	text-align: left;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	width: 60%;
 }
 .main h3{
