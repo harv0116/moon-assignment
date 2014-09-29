@@ -35,7 +35,7 @@ plus the shadow for the text
 		DEFAULTS
 ***********************************/
 body{
-	background-color: #fff;
+	background-color: #222;
 	margin-top: 40px;
 	
 }
@@ -72,10 +72,7 @@ ul{
 	overflow:hidden;
 	margin-bottom: 20px;
 }
-li{
-	float: left;
-	display: inline;
-}
+
 a:link, a:visited{
 	transition: all 0.8s linear;
 }
@@ -101,6 +98,10 @@ a:hover, a:active, a:focus{
     min-height: 400px;
     padding-left: 40px;
     padding-right: 40px;
+    background-image: url("../img/moon-header.jpg");
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-color: black;
 }
 .main{
     padding-left: 60px;
@@ -135,21 +136,28 @@ a:hover, a:active, a:focus{
 ***********************************/
 .header h1{
 	color: #FFFFFF;
-	font-size: 6.854rem;
-	/*float: left;*/
+	font-size: 2.618rem;	
 	text-align: right;
-	/*width: 100%;*/
-	background-image: url("img/moon-header.jpg");
-	background-repeat: no-repeat;
-	/*background-position: top right;*/
-	`/*background-color: black;*/
+	width: 50%;
 }
+@media all and (min-width: 600px){
+	.header h1{
+		font-size: 6.854rem;
+	}
+}/* Add a Breakpoint to increase the font size
+-- At 600px wide - font-size: 6.854rem; */
+
 .main h2{
-	font-size: 4.236rem;
+	font-size: 2.618rem;
 	color: #CC3300;
 	text-align: left;
 	margin-bottom: 20px;
 	width: 60%;
+}
+@media all and (min-width: 600px){
+	.main h2{
+		font-size: 4.236rem;
+	}
 }
 .main h3{
 	font-size: 2.618rem;
@@ -163,8 +171,8 @@ a:hover, a:active, a:focus{
 }
 .main img{
 	/* use border-radius to crop image */
-	border-radius: 50%;
-	width:20%;
+	border-radius: 25%;
+	width:30%;
 	/* choose a width percentage for the image too */
 }
 .left{
@@ -176,8 +184,16 @@ a:hover, a:active, a:focus{
     color: #000000;
     padding-bottom: 20px;
 }
+
+
 .footer li{
-	width: 50%;
 	line-height: 200%;
     /* make these 50% the width of the footer */
+}
+@media all and (min-width: 800px){
+	.footer li{
+		width: 50%;
+		float: left;
+		display: inline;
+	}
 }
