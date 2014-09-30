@@ -152,7 +152,7 @@ a:hover, a:active, a:focus{
 	color: #CC3300;
 	text-align: left;
 	margin-bottom: 20px;
-	width: 60%;
+	width: 100%;
 }
 @media all and (min-width: 600px){
 	.main h2{
